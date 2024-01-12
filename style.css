@@ -1,0 +1,33 @@
+/* Global styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 10px 50px;
+    position: relative;
+  }
+  
+  /* Chessboard styles */
+  .chessboard {
+    max-height: 800px;
+    display: grid;
+    grid-template-columns: repeat(8, 95px); /* Adjust width here */
+    grid-template-rows: repeat(8, 85px); /* Adjust height here */
+    gap: 1px; /* Gap between squares */
+   
+    background-color: #fff; /* Board background color */
+  }
+  
+ 
+  .btn{
+    position: absolute;
+    left: 100px;
+    top: 50px ;
+    width: 150px;
+    height: 50px;
+    font-size: 22px ;
+    background-color: aqua;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  }
